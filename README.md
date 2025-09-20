@@ -6,4 +6,9 @@ An application for registering box positions to create stacks of boxes.
 
 ## UI design
 
-![ui-prototype](Documents/ui-prototype.excalidraw.png)
+![ui-prototype](./Documents/ui-prototype.excalidraw.svg)
+
+
+## TODO
+
+[ ] 
