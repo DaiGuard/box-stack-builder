@@ -15,9 +15,12 @@ An application for registering box positions to create stacks of boxes.
 
     Test Scene: PalletSizeTest
 
-    <img src=https://github.com/user-attachments/assets/893b8c97-9146-4229-ac59-532527b23d09 width="60%"/>
+    <img src="https://github.com/user-attachments/assets/893b8c97-9146-4229-ac59-532527b23d09" width="60%"/>
 
-- [ ] container box spawn
+- [x] container box spawn
+
+    <img src="https://github.com/user-attachments/assets/94df9ff5-a315-447b-8553-16db524114bf" width="%60"/>
+
 - [ ] container box fit position
 - [x] container box move function
 

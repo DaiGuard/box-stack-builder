@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraMouseFollower : MonoBehaviour
+public class MouseFollower : MonoBehaviour
 {
     private Transform initCameraTransform;
     [SerializeField] private float rotationSpeed = 5.0f;

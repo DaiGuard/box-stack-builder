@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PalletSizeRefresh : MonoBehaviour
 {
-    [SerializeField] private PalletSize palletResize;
+    [SerializeField] private PalletSize palletSize;
     [SerializeField] private TMP_InputField palletSizeXInput;
     [SerializeField] private TMP_InputField palletSizeYInput;
     [SerializeField] private TMP_InputField palletSizeZInput;
@@ -12,9 +12,9 @@ public class PalletSizeRefresh : MonoBehaviour
     private void Start()
     {
         var size = new Vector3(1.0f, 1.0f, 1.0f);
-        if (palletResize != null)
+        if (palletSize != null)
         {
-            size = palletResize.GetCurrentPalletSize();
+            size = palletSize.GetCurrentPalletSize();
         }
 
         if (palletSizeXInput != null)
@@ -61,7 +61,7 @@ public class PalletSizeRefresh : MonoBehaviour
                 size.z = Mathf.Max(z * 0.001f, 0.01f);
             }
 
-            palletResize.ResizePallet(size.x, size.y, size.z);
+            palletSize.ResizePallet(size.x, size.y, size.z);
         }   
     }
 }
